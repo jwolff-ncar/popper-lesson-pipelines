@@ -1,0 +1,8 @@
++ mkdir -p data/
++ curl -L -o data/global.csv https://github.com/datasets/co2-fossil-global/raw/master/global.csv
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   144  100   144    0     0    170      0 --:--:-- --:--:-- --:--:--   170
+100  6453  100  6453    0     0   6846      0 --:--:-- --:--:-- --:--:--  6846
++ scripts/add_zeros.py data/global.csv
++ exit 0

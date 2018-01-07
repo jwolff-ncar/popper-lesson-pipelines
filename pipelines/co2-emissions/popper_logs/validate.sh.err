@@ -1,0 +1,3 @@
++ scripts/validate_output.py data/global_per_capita_mean.csv
++ scripts/get_mdown_table.py data/global_per_capita_mean.csv
++ exit 0
